@@ -10,7 +10,8 @@ from typing import Any
                                                       ([1, 2, 3, 4, 5, 6], 1, -2, [2, 3, 4]),
                                                       ([1, 2, 3, 4, 5, 6], 0, -2, [1, 2, 3, 4]),
                                                       ([1, 2, 3, 4, 5, 6], 0, -10, []),
-                                                      ([], 0, None, [])])
+                                                      ([], 0, None, []),
+                                                      ([1, 2, 3, 4, 5, 6], -6, None, [1, 2, 3, 4, 5, 6])])
 
 
 def test_my_slice(coll: list, start: int, end: Any, result: Any) -> None:
