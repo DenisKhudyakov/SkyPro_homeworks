@@ -1,5 +1,7 @@
 from typing import Any
-def my_slice(coll: list, start: int=0, end: Any=None):
+
+
+def my_slice(coll: list, start: int = 0, end: Any = None):
     """
     Возвращает новый массив, содержащий копию части исходного массива.
     :param coll: исходный список.
@@ -26,8 +28,3 @@ def my_slice(coll: list, start: int=0, end: Any=None):
 
     return coll[normalized_start:normalized_end]
 
-
-print(my_slice([1, 2, 3, 4, 5, 6], 1, 3))
-print(my_slice([1, 2, 3, 4, 5, 6], 1, 3))
-print(my_slice([1, 2, 3, 4, 5, 6], 1, 4))
-print(my_slice([1, 2, 3, 4, 5, 6], -10, 6))
