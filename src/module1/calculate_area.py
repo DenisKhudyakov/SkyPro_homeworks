@@ -14,4 +14,3 @@ def calculate_area(shape: str, sides: list) -> Any:
         return round(math.sqrt(P * (P - sides[0]) * (P - sides[1]) * (P - sides[2])), 2)
     else:
         return None
-
