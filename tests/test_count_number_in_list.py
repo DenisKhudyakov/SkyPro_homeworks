@@ -10,15 +10,6 @@ def data() -> list:
 
 def test_count_number_in_list(data) -> None:
     assert count_number_in_list(data, 4) == 4
-
-
-def test_count_number_in_list(data) -> None:
     assert count_number_in_list(data, 10) == 2
-
-
-def test_count_number_in_list(data) -> None:
     assert count_number_in_list(data, 8) == 2
-
-
-def test_count_number_in_list(data) -> None:
     assert count_number_in_list(data, None) == 0
