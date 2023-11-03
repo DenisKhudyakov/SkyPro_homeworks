@@ -1,5 +1,5 @@
-from typing import Any
 from itertools import chain
+from typing import Any
 
 
 def non_empty_truths(obj: Any):
