@@ -27,4 +27,3 @@ def my_slice(coll: list, start: int = 0, end: Any = None):
             normalized_start += length
 
     return coll[normalized_start:normalized_end]
-
